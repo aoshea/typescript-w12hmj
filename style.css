@@ -23,6 +23,12 @@ main {
   padding: 0.5rem;
 }
 
+svg#artboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .h {
   font-weight: 700;
   font-size: 12px;
@@ -60,10 +66,11 @@ main {
   }
   90% {
     transform: rotate(0deg) scale(1);
-    opacity: 1;
+    opacity: 0.3;
   }
   100% {
     transform: rotate(1deg) scale(1);
+    opacity: 0.3;
   }
 }
 
@@ -77,6 +84,34 @@ main {
   animation-fill-mode: forwards;
   animation-direction: normal;
   transform-origin: 50% 50%;
+  opacity: 0.3;
+}
+
+.zz--game {
+  background-color: #fff1d0;
+}
+
+.zz--grid {
+  display: block;
+}
+
+.zz--grid-row {
+  display: flex;
+  justify-content: center;
+}
+
+.zz--grid-item {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 10px solid black;
+  color: #fec440;
+  box-shadow: -5px 18px 25px -15px;
+}
+
+.zz--grid-item--active {
+  color: black;
 }
 
 .shape {

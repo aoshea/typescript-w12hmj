@@ -27,7 +27,6 @@ function getPolygonPoints(n: number, radius: number, centre: Vec2D): string {
     current_angle += angle_in_radians;
   }
 
-  console.log(points);
   return points.map((p) => `${p.x},${p.y}`).join(' ');
 }
 
