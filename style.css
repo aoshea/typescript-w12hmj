@@ -116,8 +116,8 @@ svg#artboard {
 
 .shape {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 10rem;
+  height: 10rem;
   background-color: #ffecd2;
   color: #fec440;
   box-shadow: -5px 18px 25px -15px;
